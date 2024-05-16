@@ -2,9 +2,9 @@
   "name": "ahs-picorun",
   "displayName": "AHS PicoRun",
   "description": "Run stuff on RPi Pico in 1 command.",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "engines": {
-    "vscode": "^1.86.0"
+    "vscode": "^1.80.0"
   },
   "categories": [
     "Other"
@@ -22,6 +22,7 @@
       }
     ]
   },
+  "publisher": "blobbybilb",
   "scripts": {
     "vscode:prepublish": "npm run compile",
     "compile": "tsc -p ./",
@@ -33,7 +34,7 @@
   "devDependencies": {
     "@types/mocha": "^10.0.6",
     "@types/node": "18.x",
-    "@types/vscode": "^1.86.0",
+    "@types/vscode": "^1.80.0",
     "@typescript-eslint/eslint-plugin": "^7.4.0",
     "@typescript-eslint/parser": "^7.4.0",
     "@vscode/test-cli": "^0.0.8",

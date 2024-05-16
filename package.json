@@ -2,7 +2,7 @@
   "name": "ahs-picorun",
   "displayName": "AHS PicoRun",
   "description": "Run stuff on RPi Pico in 1 command.",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "engines": {
     "vscode": "^1.80.0"
   },
